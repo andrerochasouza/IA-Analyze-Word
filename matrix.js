@@ -20,7 +20,7 @@ class Matrix{
                 return func(num, i, j);
             })
         })
-        
+
         return this;
     }
 
@@ -35,4 +35,10 @@ class Matrix{
         console.log(matrix.data)
     }
 
+    static multiply(A, B){
+        var matrix = new Matrix(A.rols, A.cols);
+        matrix.map((num, i, j) => {[
+            
+        ]})
+    }
 }
