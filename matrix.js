@@ -26,19 +26,26 @@ class Matrix{
 
     static add(A, B){
         var matrix = new Matrix(A.rows, A.cols);
-        console.log(A.data)
-        console.log(B.data)
+
         matrix.map((num, i, j) => {
             return A.data[i][j] + B.data[i][j]
         });
 
-        console.log(matrix.data)
+        return matrix;
     }
 
     static multiply(A, B){
-        var matrix = new Matrix(A.rols, A.cols);
-        matrix.map((num, i, j) => {[
-            
-        ]})
+        var matrix = new Matrix(A.rows, B.cols);
+        matrix.map((num, i, j) => {
+            let sum = 0
+            for(let k = 0; k < B.rows; k++){
+                let elm1 = A.data[i][k];
+                let elm2 = B.data[k][j];
+                sum += elm1 + elm2;
+            }
+            return sum;
+        })
+
+        return matrix;
     }
 }
