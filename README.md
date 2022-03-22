@@ -4,14 +4,22 @@ A [IA Analyze Word](https://github.com/andrerochasouza/IA-Analyze-Word) é uma i
 
 Os estudos são feitos a partir de leituras de artigos científicos, livros sobre IA e videos sobre Deep Learning.
 
-Utilizo [Javascript](https://www.javascript.com/) como linguagem principal para construção dos algoritmos de Deep Learning.
+Utilizo [Javascript](https://www.javascript.com/) como linguagem de programação principal para construção dos algoritmos de Deep Learning.
+
+## Algoritmos
+Alguns algoritmos que estou tentando implementar para treinamento pessoal
+
+| Nome |
+|---|
+| `Feedfoward` |
+| `Backpropagation` |
 
 ## Pacotes
 Alguns pacotes que estão incluidos no projeto:
 
 | Pacote | Versão |
 |---|---|
-| `p5*.js` | [1.41](https://p5js.org/) |
+| `p5*.js` | [1.41](https://p5js.org/)|
 
 ## Versionamento
 Sigo alguns padrões de versionamento (Versões de Branch) que eu estabeleci no projeto:
