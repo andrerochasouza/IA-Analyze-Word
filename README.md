@@ -11,16 +11,15 @@ Alguns pacotes que estão incluidos no projeto:
 
 | Pacote | Versão |
 |---|---|
-| `p5*.js` | 1.41 |
+| `p5*.js` | [1.41](https://p5js.org/) |
 
 ## Versionamento
 Sigo alguns padrões de versionamento (Versões de Branch) que eu estabeleci no projeto:
 | Versão | Descrição |
 |---|---|
-| `0.00X` | Versão para aprimoramento minimo ou adição de algum método. |
-| `0.0X0` | Novo estado do software, melhorando a performance ou novo arquivo. |
-| `0.X00` | Algoritmo novo implementado para o treinamento da rede neural, novos módulos importantes adicionamos, etc. |
-| `X.000` | Nova versão estável com refatoração aplicado. |
+| `0.0X` | Novo estado do software, melhorando a performance ou novo arquivo/método. |
+| `0.X0` | Algoritmo novo implementado para o treinamento da rede neural, novos módulos importantes adicionados, etc. |
+| `X.00` | Nova versão estável com refatoração aplicado. |
 
 
 A utilização, replicação e distribuição do projeto é livre e totalmente gratuito.
