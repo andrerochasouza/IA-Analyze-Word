@@ -1,4 +1,4 @@
-# IA-Analyze-Word
+# IA Analyze Word
 
 A [Ia Analyze Word](https://github.com/andrerochasouza/IA-Analyze-Word) é uma inteligência artificial projetada para analisar imagens e descrever frases que estam contidas nelas, esse projeto foi construida para me aprimorar e aprofundar nos estudos em Deep Learning e algoritmos de machine learning.
 
